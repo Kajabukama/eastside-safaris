@@ -1,0 +1,28 @@
+/* style.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+   font-display: swap;
+   font-family: 'Android Euclid';
+   font-style: normal;
+   font-weight: 400;
+   src: local("Android Euclid Regular"), local("Android-Euclid-Regular"), url("./assets/fonts/AndroidEuclid-Regular-WebS.woff2") format("woff2"), url("./assets/fonts/AndroidEuclid-Regular-WebS.woff") format("woff")
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Android Euclid';
+   font-style: normal;
+   font-weight: 500;
+   src: local("Android Euclid Medium"), local("Android-Euclid-Medium"), url("./assets/fonts/AndroidEuclid-Medium-WebS.woff2") format("woff2"), url("./assets/fonts/AndroidEuclid-Medium-WebS.woff") format("woff")
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Android Euclid';
+   font-style: normal;
+   font-weight: 700;
+   src: local("Android Euclid Bold"), local("Android-Euclid-Bold"), url("./assets/fonts/AndroidEuclid-Bold-WebS.woff2") format("woff2"), url("./assets/fonts/AndroidEuclid-Bold-WebS.woff") format("woff")
+}
